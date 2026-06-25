@@ -275,7 +275,7 @@ header{
     color:#ffc107;
 }
 /*responsive design*/
-@media(max-width:414px){
+@media(max-width:768px){
     *{
         box-sizing: border-box;
     }
@@ -286,8 +286,6 @@ header{
     }
     body{
         overflow-x: hidden;
-        overflow-y: hidden;
-        height:800vh;
     }
     /*navbar section*/
     .navbar{
