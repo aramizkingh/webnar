@@ -1,0 +1,397 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body{
+    background:black;
+    color:white;
+    font-family: sans-serif;
+}
+/*navbar section*/
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    display:flex;
+    gap:950px;
+    position:relative;
+    top:32px;
+}
+.logo{
+    display:flex;
+}
+.logo-info{
+    position:absolute;
+    left:90px;
+    line-height: 0.5;
+}
+.logo-info h2{
+    color:#ffc107;
+}
+.button a{
+    color:#ffc107;
+    text-decoration: none;
+    padding:14px 23px;
+    border:1px solid #ffc107;
+    border-radius:10px;
+}
+/*header section*/
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 23px;
+    padding:20px;
+}
+.header-image {
+    width:100%;
+
+}
+.header-image img{
+    height:100%;
+    position:relative;
+    right:20px;
+}
+.header-info{
+    width:100%;
+}
+.header-content p{
+    border:1px solid #ffc107;
+    padding:10px 20px;
+    border-radius:15px;
+    width:300px;
+}
+.header-content h1 span{
+    color:#ffc107;
+}
+.header-content h1{
+    font-size:60px;
+}
+.schedule{
+    display:flex;
+    gap:15px;
+}
+.schedule i{
+    color:#ffc107;
+}
+.ticket{
+    display: flex;
+    gap:20px;
+    border:1px solid #ffc107;
+    border-radius: 15px;
+    padding:10px;
+    width:432px;
+}
+.seat a{
+    color:black;
+    background: #ffc107;
+    border-radius:15px;
+    border:1px solid #ffc107;
+    padding:23px;
+    text-decoration:none;
+    position:relative;
+    top:40px;
+}
+.ticket-price{
+    line-height: 1;
+    border-right: 1px solid #ffc107;
+    padding-right: 14px;
+}
+.ticket-price h2{
+    color:#ffc107;
+}
+.gift i{
+    color:#ffc107;
+    font-size: 50px;
+}
+/*why attend section*/
+.why-attend{
+    display:flex;
+    justify-content: space-between;
+    padding:5px 20px;
+}
+#attend{
+    text-align: center;
+    color:#ffc107;
+}
+.why-attend i{
+    color:#ffc107;
+    font-size:50px;
+    position:relative;
+    left:70px;
+}
+.digital-skills{
+    border-right:1px solid rgba(255,255,255,0.2);
+}
+.enterpreneurship{
+    border-right:1px solid rgba(255,255,255,0.2);
+    padding-left: 10px;
+}
+.financial{
+    border-right: 1px solid rgba(255,255,255,0.2);
+    padding-left: 10px;
+}
+.connect{
+    border-right: 1px solid rgba(255,255,2);
+    padding-left:10px;
+}
+.investment{
+    padding-left:10px;
+}
+/*speakers section*/
+.speakers-section{
+    display:flex;
+    gap:20px;
+    padding:10px 20px;
+}
+.speakers{
+    display:flex;
+    gap:20px;
+}
+.host{
+    width:320px;
+    height:410px;
+    border:1px solid rgba(255,255,255,0.2);
+    border-radius:15px;
+    padding:10px 20px;
+}
+.host-content{
+    position:relative;
+    bottom:170px;
+    width:200px;
+    line-height: 0.9;
+}
+.guest-speaker{
+    width:300px;
+    height:410px;
+    border:1px solid rgba(255,255,255,0.2);
+    border-radius:15px;
+    padding:10px 20px;
+}
+.guest-content{
+    position:relative;
+    bottom:170px;
+    width:200px;
+    line-height:1;
+}
+.guest-speak{
+    width:265px;
+    height:410px;
+    border:1px solid rgba(255,255,255,0.2);
+    border-radius:15px;
+    padding:10px 20px;
+}
+.guest-cont{
+    position:relative;
+    bottom:170px;
+    width:200px;
+    line-height: 0.9;
+}
+.gold{
+    color:black;
+    background: #ffc107;
+    border-radius:5px;
+    width:50px;
+}
+.gold1{
+    color:black;
+    background: #ffc107;
+    border-radius: 5px;
+    width:150px;
+}
+.info{
+    color:#ffc107;
+}
+.speaker-h1{
+    color:#ffc107;
+    text-align: center;
+}
+/*receive*/
+.receive{
+    display:grid;
+    gap:10px;
+    position:relative;
+    bottom:70px;
+}
+.receive h3{
+    color:#ffc107;
+}
+.value{
+    display:flex;
+    gap:10px;
+}
+.value-icon i{
+    color:#ffc107;
+    padding:20px;
+    border:1px solid rgba(255,255,2);
+    border-radius: 50%;
+}
+/*bottom section*/
+.limited-seats{
+    display:flex;
+    gap:20px;
+    padding:15px 20px;
+    border:1px solid rgba(255,255,255,0.2);
+    border-radius:15px;
+    width:95%;
+    position:relative;
+    left:20px;
+}
+.available{
+    display:flex;
+    gap:20px;
+}
+.available-icon{
+    font-size: 50px;
+    color:#ffc107;
+}
+.available-button a{
+    color:black;
+    background:#ffc107;
+    padding:20px 60px;
+    border-radius:15px;
+    text-decoration: none;
+    position:relative;
+    font-size: 23px;
+    top:20px;
+    left:200px;
+}
+/*footer-section*/
+.footer-section{
+    display:flex;
+    gap:400px;
+}
+.logo-footer{
+    display:flex;
+}
+.logof-info{
+    position:absolute;
+    left:90px;
+    line-height: 0.5;
+}
+.logof-info h2{
+    color:#ffc107;
+}
+/*responsive design*/
+@media(max-width:414px){
+    *{
+        box-sizing: border-box;
+    }
+    html{
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        height:100%;
+    }
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height:800vh;
+    }
+    /*navbar section*/
+    .navbar{
+        font-size: 10px;
+        flex-wrap: wrap;
+    }
+    .logo img{
+        width:50px;
+        height:50px;
+    }
+    .logo-info{
+        left:60px;
+    }
+    .button a{
+        position:relative;
+        bottom:980px;
+        left: 230px;
+        
+    }
+    header{
+        font-size:px;
+        flex-wrap: wrap;
+        position: relative;
+        bottom:923px;
+    }
+    .header-image img{
+        width:400px;
+    }
+    .ticket{
+        width:350px;
+        font-size:14px;
+    }
+    .seat a{
+        padding:14px;
+        font-size: 13px;
+    }
+    /*why attend section*/
+    .why-attend{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        position:relative;
+        bottom:923px;
+    }
+    #attend{
+        position:relative;
+        bottom:923px;
+    }
+    .enterpreneurship{
+        border-right: none;
+    }
+    .connect{
+        border-right:1px;
+    }
+    /*speakers section*/
+    .speakers-section{
+        position:relative;
+        bottom:880px;
+        display:grid;
+    }
+    .speaker-h1{
+        position:relative;
+        bottom:880px;
+    }
+    .speakers{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .guest-speaker{
+        width:320px;
+    }
+    .guest-speak{
+        width:320px;
+    }
+    .receive{
+        padding-top: 50px;
+    }
+    .limited-seats{
+        font-size: 12px;
+        width:90%;
+        position:relative;
+        bottom:900px;
+
+    }
+    .available-button a{
+        left:5px;
+        font-size: 10px;
+        padding:5px 15px;
+        display:flex;
+
+    }
+    .logo-footer img{
+        width:50px;
+        height:50px;
+    }
+    .logof-info{
+        font-size: 10px;
+        position:relative;
+        left:10px;
+    }
+    .footer-section{
+        position:relative;
+        bottom:850px;
+        display:grid;
+        gap:0; 
+    }
+}
