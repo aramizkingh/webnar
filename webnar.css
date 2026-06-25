@@ -275,6 +275,7 @@ header{
     color:#ffc107;
 }
 /*responsive design*/
+/*large smartphones*/
 @media(max-width:768px){
     *{
         box-sizing: border-box;
@@ -391,5 +392,26 @@ header{
         bottom:850px;
         display:grid;
         gap:0; 
+    }
+    /*small smartphones*/
+    @media(max-width:376px){
+        /*navbar section*/
+        .button a{
+            padding:15px 12px;
+        }
+        /*header section*/
+        .header-image img{
+            width:350px;
+        }
+        .header-content h1{
+            font-size: 56px;
+        }
+        .ticket{
+            width:320px;
+        }
+        .seat a{
+            padding:11px;
+            font-size: 11px;
+        }
     }
 }
